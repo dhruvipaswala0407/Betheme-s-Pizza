@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+:root{
+    --background-1-color: #d8d1cf;
+    --background-2-color:#5d6e66;
+    --background-3-color: #ddd7d4;
+    --background-2-color: #ad8c86;
+    --text-color: #26312c;
+    --text-btn: #f9ebe5;
+    --text-p-color: #24322c;
+    --btn-hover: #546d65;
+}
+ul{list-style:none;}
+.d-flex{display:flex;}
+.col-1{width:100%;}
+a{text-decoration: none;}
+.justify-center{justify-content: center;}
+.justify-evenly{justify-content:space-evenly;}
+.justify-around{justify-content: space-around;}
+.align-center{align-items: center;}
+.align-end{align-items:flex-end;}
+.justify-between { justify-content: space-between; }
+.pd{padding:5px 10px;}
+img{width:100%;}
+.mt-300{margin-top: 300px;}
+.mb-30{margin-bottom:30px;}
+.text-center{text-align: center;}
+.container{
+    width:1320px;
+    margin:0 auto;
+    padding: 0 16px;
+    /* background-color: #24322c; */
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 -16px;
+    /* background-color: #5d6e66; */
+}
+/* header start */
+header{
+    z-index: 999 !important;
+    position: sticky;
+    background-color: var(--background-1-color);
+}
+.navbar{
+    width:50%;
+}
+.nav-item a{
+    color:var(--text-color);
+    font-size:1.2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+/* header end  */
+/* hero-section start */
+.hero-section{
+    background-image:url(../img/pizza5-slider-bg2.jpg);
+    width:100%;
+    height:90vh;
+    background-position: center center;
+}   
+.title{
+    color:var(--text-btn);
+    font-size:4rem;
+    font-weight:600;
+}
+.sub-title{
+    font-size:1.3rem;
+    font-weight:300;
+    letter-spacing:10px;
+    color:var(--text-btn);
+}
+/* hero-section end  */
