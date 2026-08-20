@@ -8,18 +8,18 @@
      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- coustom css -->
     <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="stylesheet" href="./css/media.css"/>
+    <link rel="stylesheet" href="./css/media-max.css"/>
 </head>
 <body>
-    <header class="header-main">
+    <header>
         <div class="container">
             <div class="row">
                <div class="header-container d-flex align-center justify-around col-1 pd">
                     <div class="logo">
                         <img src="./img/logo.png" alt="Betheme's Pizza" height="40px"/>
                     </div>
-                    <nav class="navbar">
-                        <ul class="nav-bar d-flex justify-around">
+                    <nav class="navbar col-lg-0">
+                        <ul class="nav-bar d-flex justify-around d-lg-none">
                             <li class="nav-item"><a href="#">home</a></li>
                             <li class="nav-item"><a href="#">story</a></li>
                             <li class="nav-item"><a href="#">menu</a></li>
@@ -28,7 +28,11 @@
                             <li class="nav-item"><a href="#">contact</a></li>
                             <li class="nav-item"><a href="#">buy now</a></li>
                         </ul>
-                    </nav>
+                    </nav>    
+                    <div>
+                           <i class="ri-menu-2-line d-none d-lg-block" data-bs-toggle="offcanvas"
+                        href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +40,7 @@
     <main>
         <section class="hero-section d-flex align-center justify-center">
             <div class="hero-container mt-300 mb-30 text-center">
-                <h1 class="title mb-30">
+                <h1 class="title mb-30 font-sm-small">
                     Traditional pizza
                     <br/>
                     with natural ingredients
